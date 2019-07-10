@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
+spring:
+  application:
+    name: hello-spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/tiddler-git/spring-cloud
+          search-paths: config
+          username: 861333628@foxmail.com
+          password: py19960906.
+

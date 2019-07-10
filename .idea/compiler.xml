@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello-spring-cloud-admin-service (1)" />
-        <module name="hello-spring-cloud-zuul" />
-        <module name="hello-spring-cloud-admin-service" />
-        <module name="hello-spring-cloud-admin-feign" />
         <module name="hello-spring-cloud-eureka" />
+        <module name="hello-spring-cloud-zuul" />
+        <module name="hello-spring-cloud-admin-feign" />
+        <module name="hello-spring-cloud-admin-service" />
+        <module name="hello-spring-cloud-config" />
+        <module name="hello-spring-cloud-admin-service (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello-spring-cloud-admin-feign" target="1.8" />
       <module name="hello-spring-cloud-admin-service" target="1.8" />
       <module name="hello-spring-cloud-admin-service (1)" target="1.8" />
+      <module name="hello-spring-cloud-config" target="1.8" />
       <module name="hello-spring-cloud-dependencies" target="1.8" />
       <module name="hello-spring-cloud-eureka" target="1.8" />
       <module name="hello-spring-cloud-eureka (1)" target="1.8" />
@@ -28,6 +30,7 @@
       <module name="hello-spring-cloud-admin-feign" options="-parameters" />
       <module name="hello-spring-cloud-admin-service" options="-parameters" />
       <module name="hello-spring-cloud-admin-service (1)" options="-parameters" />
+      <module name="hello-spring-cloud-config" options="-parameters" />
       <module name="hello-spring-cloud-eureka" options="-parameters" />
       <module name="hello-spring-cloud-eureka (1)" options="-parameters" />
       <module name="hello-spring-cloud-zuul" options="-parameters" />

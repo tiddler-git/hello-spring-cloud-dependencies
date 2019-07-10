@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-eureka/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-eureka/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/hello.spring-cloud-admin-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-config/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-spring-cloud-config/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
