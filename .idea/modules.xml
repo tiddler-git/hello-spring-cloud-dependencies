@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-admin-feign/hello-spring-cloud-admin-feign.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-admin-feign/hello-spring-cloud-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello.spring-cloud-admin-service/hello-spring-cloud-admin-service.iml" filepath="$PROJECT_DIR$/hello.spring-cloud-admin-service/hello-spring-cloud-admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-admin-comsumer/hello-spring-cloud-admin-service (1).iml" filepath="$PROJECT_DIR$/hello-spring-cloud-admin-comsumer/hello-spring-cloud-admin-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hello-spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/.idea/hello-spring-cloud-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-eureka/hello-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-eureka/hello-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-zuul/hello-spring-cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: hello-spring-cloud-zuul
+
+zuul:
+  routes:
+    api-a:
+      path: /api/a/**
+      serviceId: hello-spring-cloud-admin-feign
+    api-b:
+      path: /api/b/**
+      serviceId: hello-spring-cloud-admin-comsumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/

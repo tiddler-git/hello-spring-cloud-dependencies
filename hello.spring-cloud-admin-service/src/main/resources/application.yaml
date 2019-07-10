@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: hello-spring-cloud-admin-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
